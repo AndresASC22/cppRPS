@@ -24,7 +24,7 @@ int main() {
         }
 
         RPSai(rpsAIChoice); //AI will generate the choice for the RPS AI
-        userWin = (userChoice, rpsAIChoice); //Function will see who wins the match
+        userWin = RPScheck(userChoice, rpsAIChoice); //Function will see who wins the match
 
         if (userWin == 1)
             userWinCount++;

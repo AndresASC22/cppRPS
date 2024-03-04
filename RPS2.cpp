@@ -42,7 +42,7 @@ int main() {
 
         switch (continueGame) {
         case 1:
-            i = 0;
+            j = 0;
             break;
         default:
             return 0;
